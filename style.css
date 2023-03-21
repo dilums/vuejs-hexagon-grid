@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222831;
+  }
+  .app {
+    position: relative;
+  }
+  .item {
+    position: absolute;
+    clip-path: url(#hexagon);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    clip-path: url(#hexagon);
+  }
+  
